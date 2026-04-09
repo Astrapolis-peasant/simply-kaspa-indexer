@@ -6,7 +6,9 @@ members = [
     "mapping",
     "kaspad",
     "indexer",
-    "signal"
+    "signal",
+    "rpc_test",
+    "indexer-lite"
 ]
 
 [profile.dev]

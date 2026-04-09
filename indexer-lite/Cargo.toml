@@ -1,0 +1,19 @@
+[package]
+name = "indexer-lite"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "indexer-lite"
+path = "src/main.rs"
+
+[dependencies]
+kaspa-wrpc-client = { workspace = true }
+kaspa-rpc-core    = { workspace = true }
+kaspa-hashes      = { workspace = true }
+tokio             = { workspace = true }
+sqlx              = { workspace = true }
+clap              = { workspace = true }
+log               = { workspace = true }
+env_logger        = { workspace = true }
